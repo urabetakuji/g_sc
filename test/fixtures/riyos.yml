@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  first_hole: MyString
+  ninzu: MyString
+  pat_yn: MyString
+  game: MyString
+
+two:
+  first_hole: MyString
+  ninzu: MyString
+  pat_yn: MyString
+  game: MyString

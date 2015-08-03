@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  golfjo: MyString
+  play_date: 2015-08-03
+  tenki: MyString
+  wind: MyString
+  ido: MyString
+  hoko: MyString
+
+two:
+  golfjo: MyString
+  play_date: 2015-08-03
+  tenki: MyString
+  wind: MyString
+  ido: MyString
+  hoko: MyString

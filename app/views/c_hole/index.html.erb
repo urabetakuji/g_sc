@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>ゴルフ場データ入力</title>
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="components/loader.css">
+    <script src="components/loader.js"></script>
+    <script>
+        //
+        // TODO: Write JavaScript code here
+        //
+    </script>
+</head>
+<body>
+    <h2>ゴルフ場データ入力</h2>
+    
+    <form action="c_hole_controller.rb" method="post">
+    
+    <td align="right"><a><b>ゴルフ場：</b></a></td>
+    <td><input type="text" name="golfjo" size="15" maxlength="15"></td>    
+    
+    
+    <a><b>使用ティー：</b>
+    <select name="tee">
+    <option value="レギュラー">レギュラー</option>
+    <option value="フロント">フロント</option>
+    <option value="バック">バック</option>
+    <option value="レディース">レディース</option>
+    </select></a>
+    
+   <h4>[PARの入力]</h4>
+ <a><b>1H</b><input type="integer" size="1" max="5" name="p1"></a>
+ <a><b>2H</b><input type="integer" size="1" max="5" name="p2"></a>
+ <a><b>3H</b><input type="integer" size="1" max="5" name="p3"></a>
+ <a><b>4H</b><input type="integer" size="1" max="5" name="p4"></a>
+ <a><b>5H</b><input type="integer" size="1" max="5" name="p5"></a>
+ <a><b>6H</b><input type="integer" size="1" max="5" name="p6"></a>
+ <a><b>7H</b><input type="integer" size="1" max="5" name="p7"></a>
+ <a><b>8H</b><input type="integer" size="1" max="5" name="p8"></a>
+ <a><b>9H</b><input type="integer" size="1" max="5" name="p9"></a>
+ <a><b>10H</b><input type="integer" size="1" max="5" name="p10"></a>
+ <a><b>11H</b><input type="integer" size="1" max="5" name="p11"></a>
+ <a><b>12H</b><input type="integer" size="1" max="5" name="p12"></a>
+ <a><b>13H</b><input type="integer" size="1" max="5" name="p13"></a>
+ <a><b>14H</b><input type="integer" size="1" max="5" name="p14"></a>
+ <a><b>15H</b><input type="integer" size="1" max="5" name="p15"></a>
+ <a><b>16H</b><input type="integer" size="1" max="5" name="p16"></a>
+ <a><b>17H</b><input type="integer" size="1" max="5" name="p17"></a>
+ <a><b>18H</b><input type="integer" size="1" max="5" name="p18"></a>
+　
+ <h4>[距離を入力]</h4>
+ <a><b>1H</b><input type="integer" size="3" max="999" name="y1"></a>
+ <a><b>2H</b><input type="integer" size="3" max="999" name="y2"></a>
+ <a><b>3H</b><input type="integer" size="3" max="999" name="y3"></a>
+ <a><b>4H</b><input type="integer" size="3" max="999" name="y4"></a>
+ <a><b>5H</b><input type="integer" size="3" max="999" name="y5"></a>
+ <a><b>6H</b><input type="integer" size="3" max="999" name="y6"></a>
+ <a><b>7H</b><input type="integer" size="3" max="999" name="y7"></a>
+ <a><b>8H</b><input type="integer" size="3" max="999" name="y8"></a>
+ <a><b>9H</b><input type="integer" size="3" max="999" name="y9"></a>
+ <a><b>10H</b><input type="integer" size="3" max="999" name="y10"></a>
+ <a><b>11H</b><input type="integer" size="3" max="999" name="y11"></a>
+ <a><b>12H</b><input type="integer" size="3" max="999" name="y12"></a>
+ <a><b>13H</b><input type="integer" size="3" max="999" name="y13"></a>
+ <a><b>14H</b><input type="integer" size="3" max="999" name="y14"></a>
+ <a><b>15H</b><input type="integer" size="3" max="999" name="y15"></a>
+ <a><b>16H</b><input type="integer" size="3" max="999" name="y16"></a>
+ <a><b>17H</b><input type="integer" size="3" max="999" name="y17"></a>
+ <a><b>18H</b><input type="integer" size="3" max="999" name="y18"></a>
+　
+ <h4>[ホールHDCPの入力]</h4>
+ <a><b>1H</b><input type="integer" size="2" max="18" name="y1"></a>
+ <a><b>2H</b><input type="integer" size="2" max="18" name="y2"></a>
+ <a><b>3H</b><input type="integer" size="2" max="18" name="y3"></a>
+ <a><b>4H</b><input type="integer" size="2" max="18" name="y4"></a>
+ <a><b>5H</b><input type="integer" size="2" max="18" name="y5"></a>
+ <a><b>6H</b><input type="integer" size="2" max="18" name="y6"></a>
+ <a><b>7H</b><input type="integer" size="2" max="18" name="y7"></a>
+ <a><b>8H</b><input type="integer" size="2" max="18" name="y8"></a>
+ <a><b>9H</b><input type="integer" size="2" max="18" name="y9"></a>
+ <a><b>10H</b><input type="integer" size="2" max="18" name="y10"></a>
+ <a><b>11H</b><input type="integer" size="2" max="18" name="y11"></a>
+ <a><b>12H</b><input type="integer" size="2" max="18" name="y12"></a>
+ <a><b>13H</b><input type="integer" size="2" max="18" name="y13"></a>
+ <a><b>14H</b><input type="integer" size="2" max="18" name="y14"></a>
+ <a><b>15H</b><input type="integer" size="2" max="18" name="y15"></a>
+ <a><b>16H</b><input type="integer" size="2" max="18" name="y16"></a>
+ <a><b>17H</b><input type="integer" size="2" max="18" name="y17"></a>
+ <a><b>18H</b><input type="integer" size="2" max="18" name="y18"></a>
+
+    
+    
+    
+    <p>
+    <input type="submit" value="送信!!">
+    </p>
+    
+    </form>
+    <a href="coursedata2.html">コース情報?入力仕様?</a>
+</body>
+</html>
